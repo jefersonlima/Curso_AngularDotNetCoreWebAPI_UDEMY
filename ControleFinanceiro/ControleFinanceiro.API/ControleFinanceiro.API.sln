@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleFinanceiro.API", "ControleFinanceiro.API\ControleFinanceiro.API.csproj", "{A6EA9D4E-5FF4-40ED-988F-EE18BE38EF02}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleFinanceiro.BLL", "..\ControleFinanceiro.BLL\ControleFinanceiro.BLL.csproj", "{101AA633-E5D8-47CB-80F9-5318C3247AD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleFinanceiro.DAL", "..\ControleFinanceiro.DAL\ControleFinanceiro.DAL.csproj", "{19E3CD0C-DB25-480F-89F3-0059AD0DD004}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{A6EA9D4E-5FF4-40ED-988F-EE18BE38EF02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6EA9D4E-5FF4-40ED-988F-EE18BE38EF02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6EA9D4E-5FF4-40ED-988F-EE18BE38EF02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{101AA633-E5D8-47CB-80F9-5318C3247AD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{101AA633-E5D8-47CB-80F9-5318C3247AD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{101AA633-E5D8-47CB-80F9-5318C3247AD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{101AA633-E5D8-47CB-80F9-5318C3247AD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19E3CD0C-DB25-480F-89F3-0059AD0DD004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19E3CD0C-DB25-480F-89F3-0059AD0DD004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19E3CD0C-DB25-480F-89F3-0059AD0DD004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19E3CD0C-DB25-480F-89F3-0059AD0DD004}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

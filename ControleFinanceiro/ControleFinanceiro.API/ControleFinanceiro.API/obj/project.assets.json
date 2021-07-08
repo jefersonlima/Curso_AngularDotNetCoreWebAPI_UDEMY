@@ -120,6 +120,29 @@
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {}
         }
+      },
+      "ControleFinanceiro.BLL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/ControleFinanceiro.BLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ControleFinanceiro.BLL.dll": {}
+        }
+      },
+      "ControleFinanceiro.DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "ControleFinanceiro.BLL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ControleFinanceiro.DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ControleFinanceiro.DAL.dll": {}
+        }
       }
     }
   },
@@ -371,10 +394,22 @@
         "newtonsoft.json.bson.1.0.2.nupkg.sha512",
         "newtonsoft.json.bson.nuspec"
       ]
+    },
+    "ControleFinanceiro.BLL/1.0.0": {
+      "type": "project",
+      "path": "../../ControleFinanceiro.BLL/ControleFinanceiro.BLL.csproj",
+      "msbuildProject": "../../ControleFinanceiro.BLL/ControleFinanceiro.BLL.csproj"
+    },
+    "ControleFinanceiro.DAL/1.0.0": {
+      "type": "project",
+      "path": "../../ControleFinanceiro.DAL/ControleFinanceiro.DAL.csproj",
+      "msbuildProject": "../../ControleFinanceiro.DAL/ControleFinanceiro.DAL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "ControleFinanceiro.BLL >= 1.0.0",
+      "ControleFinanceiro.DAL >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 5.0.7",
       "Microsoft.AspNetCore.SpaServices.Extensions >= 5.0.7"
     ]
@@ -412,7 +447,14 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Curso_AngularDotNetCoreWebAPI_UDEMY\\ControleFinanceiro\\ControleFinanceiro.BLL\\ControleFinanceiro.BLL.csproj": {
+              "projectPath": "C:\\Curso_AngularDotNetCoreWebAPI_UDEMY\\ControleFinanceiro\\ControleFinanceiro.BLL\\ControleFinanceiro.BLL.csproj"
+            },
+            "C:\\Curso_AngularDotNetCoreWebAPI_UDEMY\\ControleFinanceiro\\ControleFinanceiro.DAL\\ControleFinanceiro.DAL.csproj": {
+              "projectPath": "C:\\Curso_AngularDotNetCoreWebAPI_UDEMY\\ControleFinanceiro\\ControleFinanceiro.DAL\\ControleFinanceiro.DAL.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
