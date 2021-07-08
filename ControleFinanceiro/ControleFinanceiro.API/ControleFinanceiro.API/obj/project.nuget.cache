@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "d12cvwIW+m4gMSLXiXomekpYSJGaabqYHKqf3Sx/2tp1C+my7aGyxoBJOpWOBhnDxE+lPbukPJ1emdsRdNcajg==",
+  "success": true,
+  "projectFilePath": "C:\\Curso_AngularDotNetCoreWebAPI_UDEMY\\ControleFinanceiro\\ControleFinanceiro.API\\ControleFinanceiro.API\\ControleFinanceiro.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\AreaEstudo\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\5.0.7\\microsoft.aspnetcore.jsonpatch.5.0.7.nupkg.sha512",
+    "C:\\Users\\AreaEstudo\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\5.0.7\\microsoft.aspnetcore.mvc.newtonsoftjson.5.0.7.nupkg.sha512",
+    "C:\\Users\\AreaEstudo\\.nuget\\packages\\microsoft.aspnetcore.spaservices.extensions\\5.0.7\\microsoft.aspnetcore.spaservices.extensions.5.0.7.nupkg.sha512",
+    "C:\\Users\\AreaEstudo\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\AreaEstudo\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\5.0.0\\microsoft.extensions.fileproviders.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\AreaEstudo\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\5.0.0\\microsoft.extensions.fileproviders.physical.5.0.0.nupkg.sha512",
+    "C:\\Users\\AreaEstudo\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\5.0.0\\microsoft.extensions.filesystemglobbing.5.0.0.nupkg.sha512",
+    "C:\\Users\\AreaEstudo\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\AreaEstudo\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\AreaEstudo\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
