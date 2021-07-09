@@ -2,3 +2,4 @@ C:\Curso_AngularDotNetCoreWebAPI_UDEMY\ControleFinanceiro\ControleFinanceiro.BLL
 C:\Curso_AngularDotNetCoreWebAPI_UDEMY\ControleFinanceiro\ControleFinanceiro.BLL\obj\Debug\net5.0\ControleFinanceiro.BLL.AssemblyInfoInputs.cache
 C:\Curso_AngularDotNetCoreWebAPI_UDEMY\ControleFinanceiro\ControleFinanceiro.BLL\obj\Debug\net5.0\ControleFinanceiro.BLL.AssemblyInfo.cs
 C:\Curso_AngularDotNetCoreWebAPI_UDEMY\ControleFinanceiro\ControleFinanceiro.BLL\obj\Debug\net5.0\ControleFinanceiro.BLL.csproj.CoreCompileInputs.cache
+C:\Curso_AngularDotNetCoreWebAPI_UDEMY\ControleFinanceiro\ControleFinanceiro.BLL\obj\Debug\net5.0\ControleFinanceiro.BLL.csproj.AssemblyReference.cache

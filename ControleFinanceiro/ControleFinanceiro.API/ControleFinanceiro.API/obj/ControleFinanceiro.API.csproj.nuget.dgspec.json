@@ -59,6 +59,10 @@
             "Microsoft.AspNetCore.SpaServices.Extensions": {
               "target": "Package",
               "version": "[5.0.7, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[5.0.7, )"
             }
           },
           "imports": [
@@ -123,6 +127,16 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
