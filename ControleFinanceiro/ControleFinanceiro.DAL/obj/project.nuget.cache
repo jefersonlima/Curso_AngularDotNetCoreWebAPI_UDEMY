@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CnHvzYV0HSKEEyon/Gwe3xecfViiJXVNoP1CZVMH3Fxj1w4ZxrFh9B25+4YT6JlEx06/fIbxaCHPBtWFsQJ74w==",
+  "dgSpecHash": "ReP0qmhgH4aTAeZbBDuEiLsbME8bUDFpVM2wTMlE6+vrGR8tKkjCHudTvrg7oNLNbwoeJ/nbI5JgJzvpZfzZyQ==",
   "success": true,
   "projectFilePath": "C:\\Curso_AngularDotNetCoreWebAPI_UDEMY\\ControleFinanceiro\\ControleFinanceiro.DAL\\ControleFinanceiro.DAL.csproj",
   "expectedPackageFiles": [
@@ -20,6 +20,7 @@
     "C:\\Users\\AreaEstudo\\.nuget\\packages\\microsoft.aspnetcore.http.extensions\\2.2.0\\microsoft.aspnetcore.http.extensions.2.2.0.nupkg.sha512",
     "C:\\Users\\AreaEstudo\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\AreaEstudo\\.nuget\\packages\\microsoft.aspnetcore.identity\\2.2.0\\microsoft.aspnetcore.identity.2.2.0.nupkg.sha512",
+    "C:\\Users\\AreaEstudo\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\5.0.7\\microsoft.aspnetcore.identity.entityframeworkcore.5.0.7.nupkg.sha512",
     "C:\\Users\\AreaEstudo\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.2.0\\microsoft.aspnetcore.webutilities.2.2.0.nupkg.sha512",
     "C:\\Users\\AreaEstudo\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\AreaEstudo\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

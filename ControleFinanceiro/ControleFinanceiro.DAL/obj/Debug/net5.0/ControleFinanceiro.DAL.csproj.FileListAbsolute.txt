@@ -3,3 +3,16 @@ C:\Curso_AngularDotNetCoreWebAPI_UDEMY\ControleFinanceiro\ControleFinanceiro.DAL
 C:\Curso_AngularDotNetCoreWebAPI_UDEMY\ControleFinanceiro\ControleFinanceiro.DAL\obj\Debug\net5.0\ControleFinanceiro.DAL.AssemblyInfoInputs.cache
 C:\Curso_AngularDotNetCoreWebAPI_UDEMY\ControleFinanceiro\ControleFinanceiro.DAL\obj\Debug\net5.0\ControleFinanceiro.DAL.AssemblyInfo.cs
 C:\Curso_AngularDotNetCoreWebAPI_UDEMY\ControleFinanceiro\ControleFinanceiro.DAL\obj\Debug\net5.0\ControleFinanceiro.DAL.csproj.CoreCompileInputs.cache
+C:\Curso_AngularDotNetCoreWebAPI_UDEMY\ControleFinanceiro\ControleFinanceiro.DAL\bin\Debug\net5.0\ControleFinanceiro.DAL.deps.json
+C:\Curso_AngularDotNetCoreWebAPI_UDEMY\ControleFinanceiro\ControleFinanceiro.DAL\bin\Debug\net5.0\ControleFinanceiro.DAL.runtimeconfig.json
+C:\Curso_AngularDotNetCoreWebAPI_UDEMY\ControleFinanceiro\ControleFinanceiro.DAL\bin\Debug\net5.0\ControleFinanceiro.DAL.runtimeconfig.dev.json
+C:\Curso_AngularDotNetCoreWebAPI_UDEMY\ControleFinanceiro\ControleFinanceiro.DAL\bin\Debug\net5.0\ControleFinanceiro.DAL.dll
+C:\Curso_AngularDotNetCoreWebAPI_UDEMY\ControleFinanceiro\ControleFinanceiro.DAL\bin\Debug\net5.0\ref\ControleFinanceiro.DAL.dll
+C:\Curso_AngularDotNetCoreWebAPI_UDEMY\ControleFinanceiro\ControleFinanceiro.DAL\bin\Debug\net5.0\ControleFinanceiro.DAL.pdb
+C:\Curso_AngularDotNetCoreWebAPI_UDEMY\ControleFinanceiro\ControleFinanceiro.DAL\bin\Debug\net5.0\ControleFinanceiro.BLL.dll
+C:\Curso_AngularDotNetCoreWebAPI_UDEMY\ControleFinanceiro\ControleFinanceiro.DAL\bin\Debug\net5.0\ControleFinanceiro.BLL.pdb
+C:\Curso_AngularDotNetCoreWebAPI_UDEMY\ControleFinanceiro\ControleFinanceiro.DAL\obj\Debug\net5.0\ControleFinanceiro.DAL.csproj.CopyComplete
+C:\Curso_AngularDotNetCoreWebAPI_UDEMY\ControleFinanceiro\ControleFinanceiro.DAL\obj\Debug\net5.0\ControleFinanceiro.DAL.dll
+C:\Curso_AngularDotNetCoreWebAPI_UDEMY\ControleFinanceiro\ControleFinanceiro.DAL\obj\Debug\net5.0\ref\ControleFinanceiro.DAL.dll
+C:\Curso_AngularDotNetCoreWebAPI_UDEMY\ControleFinanceiro\ControleFinanceiro.DAL\obj\Debug\net5.0\ControleFinanceiro.DAL.pdb
+C:\Curso_AngularDotNetCoreWebAPI_UDEMY\ControleFinanceiro\ControleFinanceiro.DAL\obj\Debug\net5.0\ControleFinanceiro.DAL.genruntimeconfig.cache
