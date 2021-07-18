@@ -1377,7 +1377,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\AreaEstudo\\.nuget\\packages\\": {},
+    "C:\\Users\\jefer\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
@@ -1387,7 +1387,7 @@
       "projectUniqueName": "C:\\Curso_AngularDotNetCoreWebAPI_UDEMY\\ControleFinanceiro\\ControleFinanceiro.BLL\\ControleFinanceiro.BLL.csproj",
       "projectName": "ControleFinanceiro.BLL",
       "projectPath": "C:\\Curso_AngularDotNetCoreWebAPI_UDEMY\\ControleFinanceiro\\ControleFinanceiro.BLL\\ControleFinanceiro.BLL.csproj",
-      "packagesPath": "C:\\Users\\AreaEstudo\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\jefer\\.nuget\\packages\\",
       "outputPath": "C:\\Curso_AngularDotNetCoreWebAPI_UDEMY\\ControleFinanceiro\\ControleFinanceiro.BLL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
@@ -1395,7 +1395,7 @@
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\AreaEstudo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jefer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -1404,6 +1404,7 @@
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

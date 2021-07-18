@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { TiposService } from '../app/services/tipos.service';
+import { CategoriasService } from './services/categorias.service';
 
 
 
@@ -19,6 +20,7 @@ import { TiposService } from '../app/services/tipos.service';
   ],
   providers: [
     TiposService,
+    CategoriasService,
     HttpClientModule
   ],
   bootstrap: [AppComponent]
