@@ -6,13 +6,13 @@ import { ListagemCategoriasComponent } from './components/Categoria/listagem-cat
 
 const routes: Routes = [
   {
-    path: 'categoria/listagemcategorias', component: ListagemCategoriasComponent
+    path: 'categorias/listagemcategorias', component: ListagemCategoriasComponent
   },
   {
-    path: 'categoria/novacategorias', component: NovaCategoriaComponent
+    path: 'categorias/novacategorias', component: NovaCategoriaComponent
   },
   {
-    path: 'categoria/atualiarcategoria/:id', component: AtualizarCategoriaComponent
+    path: 'categorias/atualizarcategoria/:id', component: AtualizarCategoriaComponent
   }
 ];
 

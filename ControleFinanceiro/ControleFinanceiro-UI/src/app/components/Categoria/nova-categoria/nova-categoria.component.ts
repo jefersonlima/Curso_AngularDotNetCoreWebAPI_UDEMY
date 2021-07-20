@@ -43,8 +43,11 @@ export class NovaCategoriaComponent implements OnInit {
     const categoria = this.formulario.value;
 
     this.categoriasService.NovaCategoria(categoria).subscribe(resultado => {
-      this.router.navigate(['categoria/listagemcategorias']);
+      this.router.navigate(['categorias/listagemcategorias']);
     })
+  }
+  VoltarListagem(): void {
+    this.router.navigate(['categorias/listagemcategorias'])
   }
 
 }

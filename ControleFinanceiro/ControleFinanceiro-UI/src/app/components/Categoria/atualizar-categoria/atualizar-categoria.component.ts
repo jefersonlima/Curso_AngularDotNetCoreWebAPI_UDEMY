@@ -14,6 +14,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class AtualizarCategoriaComponent implements OnInit {
 
+  nomeCategoria: string | undefined;
   categoria: Observable<Categoria> | undefined;
   tipos: Tipo[] | undefined;
   formulario: any;
@@ -33,6 +34,7 @@ export class AtualizarCategoriaComponent implements OnInit {
     });
 
     this.categoriasService.PegarCategoriaPeloId(categoriaId).subscribe(resultado => {
+      this.nomeCategoria = resultado.nome;
       this.formulario = new FormGroup({
         categoriaId: new FormControl(resultado.categoriaId),
         nome: new FormControl(resultado.nome),
@@ -43,5 +45,9 @@ export class AtualizarCategoriaComponent implements OnInit {
   }
   get propriedade() {
     return this.formulario.controls;
+  }
+
+  VoltarListagem(): void {
+    this.router.navigate(['categorias/listagemcategorias'])
   }
 }
