@@ -1,10 +1,12 @@
+import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule } from '@angular/forms';
+
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ReactiveFormsModule } from '@angular/forms';
 
 import { ListagemCategoriasComponent, DialogExclusaoCategoriasComponent } from './components/Categoria/listagem-categorias/listagem-categorias.component';
 import { NovaCategoriaComponent } from './components/Categoria/nova-categoria/nova-categoria.component';
@@ -49,6 +51,7 @@ import { AtualizarCategoriaComponent } from './components/Categoria/atualizar-ca
     MatGridListModule,
     MatDialogModule,
     ReactiveFormsModule,
+    FormsModule,
   ],
   providers: [
     TiposService,
