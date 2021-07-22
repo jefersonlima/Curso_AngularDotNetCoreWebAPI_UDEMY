@@ -96,5 +96,11 @@ namespace ControleFinanceiro.API.Controllers
                 mensagem = $"Categoria { categoria.Nome} excluída com sucesso"
             });
         }
+
+        [HttpGet("FiltrarCategorias/{nomeCategoria}")]
+        public async Task<ActionResult<IEnumerable<Categoria>>> FiltrarCategorias(string nomeCategoria)
+        {
+            return await _categoriaRepositorio.FiltrarCategorias(nomeCategoria).ToListAsync();
+        }
     }
 }
