@@ -39,7 +39,6 @@ export class ListagemCategoriasComponent implements OnInit {
       }
     }).afterClosed().subscribe(resultado => {
       if (resultado === true) {
-        debugger;
         this.categoriasService.PegarTodos().subscribe((dados) => {
           this.categorias.data = dados;
         });
