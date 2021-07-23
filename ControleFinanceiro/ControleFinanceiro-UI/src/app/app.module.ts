@@ -25,7 +25,8 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatDialogModule } from '@angular/material/dialog';
 import { AtualizarCategoriaComponent } from './components/Categoria/atualizar-categoria/atualizar-categoria.component';
-
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
 
 @NgModule({
   declarations: [
@@ -50,9 +51,11 @@ import { AtualizarCategoriaComponent } from './components/Categoria/atualizar-ca
     MatSelectModule,
     MatGridListModule,
     MatDialogModule,
+    MatAutocompleteModule,
+    MatPaginatorModule,
+    MatSortModule,
     ReactiveFormsModule,
     FormsModule,
-    MatAutocompleteModule,
   ],
   providers: [
     TiposService,

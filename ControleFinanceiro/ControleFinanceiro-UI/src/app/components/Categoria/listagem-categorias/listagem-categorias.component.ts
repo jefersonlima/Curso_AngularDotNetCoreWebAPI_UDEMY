@@ -4,9 +4,10 @@ import { FormControl } from '@angular/forms';
 
 import { MatDialog, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { CategoriasService } from './../../../services/categorias.service';
-import { Component, OnInit, Inject } from '@angular/core';
+import { Component, OnInit, Inject, ViewChild } from '@angular/core';
 import { MatTableDataSource } from '@angular/material/table';
-
+import { MatPaginator } from '@angular/material/paginator';
+import { MatSort } from '@angular/material/sort';
 
 @Component({
   selector: 'app-listagem-categorias',
@@ -22,6 +23,12 @@ export class ListagemCategoriasComponent implements OnInit {
   opcoesCategorias: string[] = [];
   nomesCategorias: Observable<string[]> | undefined;
 
+  @ViewChild(MatPaginator, { static: true })
+  paginator: MatPaginator | undefined;
+
+  @ViewChild(MatSort, { static: true })
+  sort: MatSort | undefined;
+
   constructor(
     private categoriasService: CategoriasService,
     private dialog: MatDialog
@@ -33,6 +40,9 @@ export class ListagemCategoriasComponent implements OnInit {
         this.opcoesCategorias.push(categoria.nome!);
       });
       this.categorias.data = resultado;
+      this.categorias.paginator = this.paginator!;
+      this.categorias.sort = this.sort!;
+
     });
 
     this.displayedColumns = this.ExibirColunas();
