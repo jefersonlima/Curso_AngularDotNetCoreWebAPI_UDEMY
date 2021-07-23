@@ -1,10 +1,12 @@
+import { startWith, map } from 'rxjs/operators';
 import { Observable } from 'rxjs';
 import { FormControl } from '@angular/forms';
+
 import { MatDialog, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { CategoriasService } from './../../../services/categorias.service';
 import { Component, OnInit, Inject } from '@angular/core';
 import { MatTableDataSource } from '@angular/material/table';
-import { startWith, map } from 'rxjs/operators';
+
 
 @Component({
   selector: 'app-listagem-categorias',
@@ -26,7 +28,7 @@ export class ListagemCategoriasComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    this.categoriasService.PegarTodos().subscribe(resultado => {
+    this.categoriasService.PegarTodos().subscribe((resultado) => {
       resultado.forEach((categoria) => {
         this.opcoesCategorias.push(categoria.nome!);
       });

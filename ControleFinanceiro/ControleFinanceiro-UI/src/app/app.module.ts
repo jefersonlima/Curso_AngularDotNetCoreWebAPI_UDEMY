@@ -1,5 +1,5 @@
-import { ReactiveFormsModule } from '@angular/forms';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatAutocompleteModule } from '@angular/material/autocomplete'
 
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -33,7 +33,7 @@ import { AtualizarCategoriaComponent } from './components/Categoria/atualizar-ca
     ListagemCategoriasComponent,
     NovaCategoriaComponent,
     AtualizarCategoriaComponent,
-    DialogExclusaoCategoriasComponent
+    DialogExclusaoCategoriasComponent,
   ],
   imports: [
     BrowserModule,
@@ -52,6 +52,7 @@ import { AtualizarCategoriaComponent } from './components/Categoria/atualizar-ca
     MatDialogModule,
     ReactiveFormsModule,
     FormsModule,
+    MatAutocompleteModule,
   ],
   providers: [
     TiposService,
