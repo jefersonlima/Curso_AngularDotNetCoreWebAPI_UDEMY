@@ -8,6 +8,7 @@ import { Component, OnInit, Inject, ViewChild } from '@angular/core';
 import { MatTableDataSource } from '@angular/material/table';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
+import { MatSnackBar } from '@angular/material/snack-bar';
 
 @Component({
   selector: 'app-listagem-categorias',
@@ -97,10 +98,17 @@ export class ListagemCategoriasComponent implements OnInit {
 export class DialogExclusaoCategoriasComponent {
   constructor(@Inject(MAT_DIALOG_DATA)
   public dados: any,
-    private categoriasService: CategoriasService) { }
+    private categoriasService: CategoriasService,
+    private snackBar: MatSnackBar
+  ) { }
 
   ExcluirCategoria(categoriaId: number): void {
     this.categoriasService.ExcluirCategoria(categoriaId).subscribe(resultado => {
+      this.snackBar.open(resultado.mensagem, null!, {
+        duration: 2000,
+        horizontalPosition: 'right',
+        verticalPosition: 'top'
+      })
     });
   }
 }

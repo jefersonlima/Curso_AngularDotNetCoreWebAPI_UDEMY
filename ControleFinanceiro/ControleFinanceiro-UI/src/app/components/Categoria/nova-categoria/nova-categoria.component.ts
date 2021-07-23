@@ -5,6 +5,7 @@ import { Tipo } from './../../../models/Tipo';
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl } from '@angular/forms';
 import { Router } from '@angular/router'
+import { MatSnackBar } from '@angular/material/snack-bar';
 
 @Component({
   selector: 'app-nova-categoria',
@@ -19,7 +20,8 @@ export class NovaCategoriaComponent implements OnInit {
   constructor(
     private tiposService: TiposService,
     private categoriasService: CategoriasService,
-    private router: Router
+    private router: Router,
+    private snackBar: MatSnackBar
   ) { }
 
   ngOnInit(): void {
@@ -44,7 +46,12 @@ export class NovaCategoriaComponent implements OnInit {
 
     this.categoriasService.NovaCategoria(categoria).subscribe(resultado => {
       this.router.navigate(['categorias/listagemcategorias']);
-    })
+      this.snackBar.open(resultado.mensagem, null!, {
+        duration: 2000,
+        horizontalPosition: 'right',
+        verticalPosition: 'top'
+      });
+    });
   }
   VoltarListagem(): void {
     this.router.navigate(['categorias/listagemcategorias'])

@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
 import { Categoria } from 'src/app/models/Categoria';
 import { Tipo } from 'src/app/models/Tipo';
 import { ActivatedRoute, Router } from '@angular/router';
+import { MatSnackBar } from '@angular/material/snack-bar';
 
 @Component({
   selector: 'app-atualizar-categoria',
@@ -24,7 +25,8 @@ export class AtualizarCategoriaComponent implements OnInit {
     private router: Router,
     private route: ActivatedRoute,
     private tiposService: TiposService,
-    private categoriasService: CategoriasService
+    private categoriasService: CategoriasService,
+    private snackBar: MatSnackBar
   ) { }
 
   ngOnInit(): void {
@@ -51,8 +53,13 @@ export class AtualizarCategoriaComponent implements OnInit {
   EnviarFornulario(): void {
     const categoria = this.formulario.value;
     this.categoriasService.AtualizarCategoria(this.categoriaId!, categoria).subscribe(resultado => {
-      this.router.navigate(['categorias/listagemcategorias'])
-    })
+      this.router.navigate(['categorias/listagemcategorias']);
+      this.snackBar.open(resultado.mensagem, null!, {
+        duration: 2000,
+        horizontalPosition: 'right',
+        verticalPosition: 'top'
+      });
+    });
   }
 
   VoltarListagem(): void {

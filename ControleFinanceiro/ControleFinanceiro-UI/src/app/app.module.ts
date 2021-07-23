@@ -27,6 +27,7 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { AtualizarCategoriaComponent } from './components/Categoria/atualizar-categoria/atualizar-categoria.component';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 @NgModule({
   declarations: [
@@ -54,6 +55,7 @@ import { MatSortModule } from '@angular/material/sort';
     MatAutocompleteModule,
     MatPaginatorModule,
     MatSortModule,
+    MatSnackBarModule,
     ReactiveFormsModule,
     FormsModule,
   ],
