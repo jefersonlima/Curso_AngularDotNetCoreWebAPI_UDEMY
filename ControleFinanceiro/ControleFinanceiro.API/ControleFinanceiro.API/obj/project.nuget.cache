@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "lrZlHzbP6txFpSSEHsesYBzq65rRQHq8bfXmCY4lRI8eLrj2XOtpTP4SwZcy/Ncrl4iOKKHXlZ+eZqda0axrPQ==",
+  "dgSpecHash": "iP9jM0cw2pFOwGV+1FY9HofKo0yASQU3L8IzaCaicz9LTBaqVhSorDnaQS09j9EnhsPRAFYw16++lCx1k34+Yw==",
   "success": true,
   "projectFilePath": "C:\\Curso_AngularDotNetCoreWebAPI_UDEMY\\ControleFinanceiro\\ControleFinanceiro.API\\ControleFinanceiro.API\\ControleFinanceiro.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\AreaEstudo\\.nuget\\packages\\fluentvalidation\\10.3.0\\fluentvalidation.10.3.0.nupkg.sha512",
+    "C:\\Users\\AreaEstudo\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.3.0\\fluentvalidation.aspnetcore.10.3.0.nupkg.sha512",
+    "C:\\Users\\AreaEstudo\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.3.0\\fluentvalidation.dependencyinjectionextensions.10.3.0.nupkg.sha512",
     "C:\\Users\\AreaEstudo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\AreaEstudo\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\AreaEstudo\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
