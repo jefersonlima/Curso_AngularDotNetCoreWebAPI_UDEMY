@@ -1,9 +1,8 @@
 import { CategoriasService } from './../../../services/categorias.service';
-import { Categoria } from './../../../models/Categoria';
 import { TiposService } from './../../../services/tipos.service';
 import { Tipo } from './../../../models/Tipo';
 import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormControl } from '@angular/forms';
+import { FormGroup, FormControl, Validators } from '@angular/forms';
 import { Router } from '@angular/router'
 import { MatSnackBar } from '@angular/material/snack-bar';
 
@@ -33,9 +32,9 @@ export class NovaCategoriaComponent implements OnInit {
     });
 
     this.formulario = new FormGroup({
-      nome: new FormControl(null),
-      icone: new FormControl(null),
-      tipoId: new FormControl(null),
+      nome: new FormControl(null, [Validators.required, Validators.maxLength(50)]),
+      icone: new FormControl(null, [Validators.required, Validators.maxLength(15)]),
+      tipoId: new FormControl(null, Validators.required),
     });
   }
 
