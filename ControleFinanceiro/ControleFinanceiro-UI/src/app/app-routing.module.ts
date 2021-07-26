@@ -1,3 +1,4 @@
+import { ListagemFuncoesComponent } from './components/Funcao/listagem-funcoes/listagem-funcoes.component';
 import { AtualizarCategoriaComponent } from './components/Categoria/atualizar-categoria/atualizar-categoria.component';
 import { NovaCategoriaComponent } from './components/Categoria/nova-categoria/nova-categoria.component';
 import { NgModule } from '@angular/core';
@@ -13,7 +14,11 @@ const routes: Routes = [
   },
   {
     path: 'categorias/atualizarcategoria/:id', component: AtualizarCategoriaComponent
-  }
+  },
+
+  {
+    path: 'funcoes/listagemfuncoes', component: ListagemFuncoesComponent
+  },
 ];
 
 @NgModule({
