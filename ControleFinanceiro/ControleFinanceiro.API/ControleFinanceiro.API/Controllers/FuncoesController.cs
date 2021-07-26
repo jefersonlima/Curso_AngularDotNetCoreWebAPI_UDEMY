@@ -112,5 +112,11 @@ namespace ControleFinanceiro.API.Controllers
                 mensagem = $"Função {funcao.Name} excluída com sucesso"
             });
         }
+
+        [HttpGet("FiltrarFuncoes/{nomeFuncao}")]
+        public async Task<ActionResult<IEnumerable<Funcao>>> FiltrarFuncoes(string nomeFuncao)
+        {
+            return await _funcaoRepositorio.FiltrarFuncoes(nomeFuncao).ToListAsync();
+        }
     }
 }
