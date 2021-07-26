@@ -13,6 +13,8 @@ import { NovaCategoriaComponent } from './components/Categoria/nova-categoria/no
 
 import { TiposService } from '../app/services/tipos.service';
 import { CategoriasService } from './services/categorias.service';
+import { FuncoesService } from './services/funcoes.service';
+
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatTableModule } from '@angular/material/table';
 import { MatIconModule } from '@angular/material/icon';
@@ -64,6 +66,7 @@ import { MatProgressBarModule } from '@angular/material/progress-bar';
   providers: [
     TiposService,
     CategoriasService,
+    FuncoesService,
     HttpClientModule
   ],
   bootstrap: [AppComponent]
