@@ -16,6 +16,21 @@
 
         <mat-divider></mat-divider>
 
+        <div class="divAutoComplete">
+            <form>
+                <mat-form-field class="autoCompleteInput">
+                    <input type="text" placeholder="Digite a função que você procura" matInput
+                        [formControl]="autoCompleteInput" [matAutocomplete]="auto" />
+
+                    <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete">
+                        <mat-option *ngFor="let funcao of nomesFuncoes | async" [value]="funcao">
+                            {{funcao}}
+                        </mat-option>
+                    </mat-autocomplete>
+                </mat-form-field>
+            </form>
+        </div>
+
         <table mat-table [dataSource]="funcoes" matSort class="mat-elevation-z8 tabela">
             <ng-container matColumnDef="nome">
                 <th mat-header-cell *matHeaderCellDef mat-sort-header>Nome</th>
