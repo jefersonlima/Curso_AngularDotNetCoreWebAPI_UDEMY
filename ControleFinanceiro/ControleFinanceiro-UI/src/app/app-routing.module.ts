@@ -1,3 +1,4 @@
+import { AtualizaFuncaoComponent } from './components/Funcao/atualiza-funcao/atualiza-funcao.component';
 import { NovaFuncaoComponent } from './components/Funcao/nova-funcao/nova-funcao.component';
 import { ListagemFuncoesComponent } from './components/Funcao/listagem-funcoes/listagem-funcoes.component';
 import { AtualizarCategoriaComponent } from './components/Categoria/atualizar-categoria/atualizar-categoria.component';
@@ -23,6 +24,10 @@ const routes: Routes = [
 
   {
     path: 'funcoes/novafuncao', component: NovaFuncaoComponent
+  },
+
+  {
+    path: 'funcoes/atualizarfuncao', component: AtualizaFuncaoComponent
   },
 ];
 
