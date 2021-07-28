@@ -12,7 +12,7 @@ import { Component, OnInit } from '@angular/core';
 export class NovaFuncaoComponent implements OnInit {
 
   formulario: any;
-  erros: string[] | undefined;
+  erros!: string[];
   constructor(private router: Router,
     private funcoesService: FuncoesService,
     private snackBar: MatSnackBar) { }
@@ -21,7 +21,7 @@ export class NovaFuncaoComponent implements OnInit {
     this.erros = [];
 
     this.formulario = new FormGroup({
-      nome: new FormControl(null, [Validators.required, Validators.maxLength(50)]),
+      name: new FormControl(null, [Validators.required, Validators.maxLength(50)]),
       descricao: new FormControl(null, [Validators.required, Validators.maxLength(50)])
     });
   }
@@ -34,7 +34,7 @@ export class NovaFuncaoComponent implements OnInit {
     this.erros = [];
     this.funcoesService.NovaFuncao(funcao).subscribe(resultado => {
       this.router.navigate(['/funcoes/listagemfuncoes']);
-      this.snackBar.open(resultado.mensagem, null, {
+      this.snackBar.open(resultado.mensagem, null!, {
         duration: 2000,
         horizontalPosition: 'right',
         verticalPosition: 'top'
@@ -51,4 +51,8 @@ export class NovaFuncaoComponent implements OnInit {
       }
     )
   }
+  VoltarListagem(): void {
+    this.router.navigate(['/funcoes/listagemfuncoes'])
+  }
+
 }
